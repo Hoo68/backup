@@ -1,0 +1,238 @@
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex"> 
+  <title>Register</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="panel panel-primary" style="margin:20px;">
+  <div class="panel-heading">
+    <h3 class="panel-title">Registration Form</h3>
+  </div>
+  <div class="panel-body">
+    <form>
+      <div class="col-md-9 col-sm-9 col-xs-12">
+        <div class="col-md-12 col-sm-12">
+          <div class="form-group col-md-6 col-sm-6">
+            <label for="name">Name*	</label>
+            <input type="text" class="form-control input-sm" id="name" placeholder="">
+          </div>
+          <div class="form-group col-md-6 col-sm-6">
+            <label for="email">Email*</label>
+            <input type="email" class="form-control input-sm" id="email" placeholder="">
+          </div>
+
+          <div class="form-group col-md-6 col-sm-6">
+            <label for="mobile">Mobile*</label>
+            <input type="text" class="form-control input-sm" id="mobile" placeholder="">
+          </div>
+
+          <div class="form-group col-md-6 col-sm-6">
+            <label for="address">Address*</label>
+            <textarea class="form-control input-sm" id="address" rows="3"></textarea>
+          </div>
+          
+          <div class="form-group col-md-6 col-sm-6">
+            <label for="city">City*</label>
+            <input type="text" class="form-control input-sm" id="city" placeholder="">
+          </div>
+          
+          <div class="form-group col-md-6 col-sm-6">
+            <label for="state">State*</label>
+            <input type="text" class="form-control input-sm" id="state" placeholder="">
+          </div>
+
+          <div class="form-group col-md-6 col-sm-6">
+            <label for="country">Country*</label>
+            <input type="text" class="form-control input-sm" id="country" placeholder="">
+          </div>
+
+          <div class="form-group col-md-6 col-sm-6">
+            <label for="pincode">Pincode</label>
+            <input type="text" class="form-control input-sm" id="pincode" placeholder="">
+          </div>
+
+        <div class = "form-group col-md-6 col-sm-6">
+          <label for="years">You could register for up to 10 years for Kalabhairava Shanthi - M.A *</label>	 
+          <span class="help-block">Please choose the no. of months for which you would like to register</span>
+         
+          <select class="form-control input-sm" id="years">
+            <option>-- Select No of Year --</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+
+        <div class = "form-group col-md-6 col-sm-6">
+          <label for="months">You could register for up to 10 months for Kalabhairava Shanthi. *</label>
+          <span class="help-block">Please choose the no. of months for which you would like to register</span>	    
+          <select class="form-control input-sm" id="months">
+            <option>-- Select No of Month --</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+
+        <div class="form-group col-md-6 col-sm-6" >
+          <label for="pincode">Would you be visiting ashram to participate in Kalabhairava Shanthi - M.A ? * 
+          <input type="checkbox" checked data-toggle="toggle"></label>
+          <span class="help-block">if you need a cottage to stay, you could book in advance through email to ishastay@ishafoundation.org</span>
+        </div>
+
+        <div class="form-group col-md-6 col-sm-6">
+          <label for="arrival">Arrival Date</label>
+          <input type="text" class="form-control input-sm datepicker" id="arrival" placeholder="">
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12" id="deceased">
+          <div class="form-group col-md-3 col-sm-3">
+            <label for="name">Name*</label>
+            <input type="text" class="form-control input-sm" id="name" placeholder="">
+          </div>
+          <div class="form-group col-md-3 col-sm-3">
+            <label for="gender">Gender*</label>
+            <input type="text" class="form-control input-sm" id="gender" placeholder="">
+          </div>
+          <div class="form-group col-md-3 col-sm-3">
+            <label for="age">Age*</label>
+            <input type="text" class="form-control input-sm" id="age" placeholder="">
+          </div>
+          <div class="form-group col-md-3 col-sm-3">
+            <label for="DOB">Date of Birth or Exact Birth Year*</label>
+            <input type="text" class="form-control input-sm datepicker" id="DOB" placeholder="">
+          </div>
+          <div class="form-group col-md-3 col-sm-3">
+            <label for="DOD">Date of Death or Exact Death Year*</label>
+            <input type="text" class="form-control input-sm datepicker" id=" DOD" placeholder="">
+          </div>
+          <div class="form-group col-md-3 col-sm-3">
+            <label for="mother">Deceased Person's Mother Name*</label>
+            <input type="text" class="form-control input-sm" id="mother" placeholder="">
+          </div>
+          <div class="form-group col-md-3 col-sm-3">
+            <label for="father">Deceased Person's Father Name*</label>
+            <input type="text" class="form-control input-sm" id="father" placeholder="">
+          </div>
+          <div class="form-group col-md-3 col-sm-3">
+            <label for="photo">Photo*</label>
+            <input type="file" id="photo">
+            <p class="help-block">Please upload individual photo. Group photo is not acceptable.</p>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12" id="addblock">
+          <div class="form-group col-md-3 col-sm-3">
+            <input type='button' class="btn btn-primary" value="Add" id="add"/>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12" >
+          <div class="form-group col-md-3 col-sm-3 pull-right">
+            <input type='text' class="form-control input-sm" id="amount" readonly placeholder="Total Amount"/>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12">
+          <div class="form-group col-md-3 col-sm-3 pull-right" >
+            <input type="submit" class="btn btn-primary" value="Submit"/>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <hr />
+        <div class="form-group">
+          <div class="main-img-preview">
+            <img class="thumbnail img-preview" src="http://farm4.static.flickr.com/3316/3546531954_eef60a3d37.jpg" title="Preview Logo">
+          </div>
+          <div class="input-group">
+            <input id="fakeUploadLogo" class="form-control fake-shadow" placeholder="Choose File" disabled="disabled">
+            <div class="input-group-btn">
+              <div class="fileUpload btn btn-danger fake-shadow">
+                <span><i class="glyphicon glyphicon-upload"></i> Upload Logo</span>
+                <input id="logo-id" name="logo" type="file" class="attachment_upload">
+              </div>
+            </div>
+          </div>
+          <p class="help-block">* Upload your company logo.</p>
+        </div>
+      </div>
+    </form>
+  </div>
+  <style>
+    body {
+        font: 12px 'Open Sans';
+    }
+    .form-control, .thumbnail {
+        border-radius: 2px;
+    }
+    .btn-danger {
+        background-color: #B73333;
+    }
+
+    /* File Upload */
+    .fake-shadow {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    .fileUpload {
+        position: relative;
+        overflow: hidden;
+    }
+    .fileUpload #logo-id {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 33px;
+        cursor: pointer;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    .img-preview {
+        max-width: 100%;
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+        var brand = document.getElementById('logo-id');
+        brand.className = 'attachment_upload';
+        brand.onchange = function() {
+            document.getElementById('fakeUploadLogo').value = this.value.substring(12);
+        };
+
+        // Source: http://stackoverflow.com/a/4459419/6396981
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                
+                reader.onload = function(e) {
+                    $('.img-preview').attr('src', e.target.result);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        $("#logo-id").change(function() {
+            readURL(this);
+        });
+    });
+  </script>
+</body>
+</html>
